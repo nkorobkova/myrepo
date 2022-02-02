@@ -2,12 +2,12 @@
  
 int main(void) {
     
-    int first, last, ix;
+    int first, l, ix;
     
-    scanf("%d %d", &first, &last);
+    scanf("%d %d", &first, &l);
     
    
-    for (; first <= last; ++first) {
+    for (; first <= l; ++first) {
 
         for (ix = 0; ix < first; ++ix) {
             
